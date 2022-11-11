@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFC830;
+    color: #FFC830;
+}
+
+/* wrapper */
+
+.wrapper-div {
+    width: 75%;
+    min-height: 100px;
+    margin: auto;
+}
+
+/* Logo-Navigation */
+
+.logo-nav-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: #454545;
+}
+
+.logo-div {
+    width: 50%;
+    min-height: 50px;
+    line-height: 50px;
+    background-color: #454545;
+    float: left;
+    padding-left: 2%;
+
+}
+
+.nav-div {
+    width: 50%;
+    min-height: 50px;
+    line-height: 50px;
+    background-color: #454545;
+    float: right;
+    padding-left: 2%;
+    
+
+}
+
+/*  Rows and Columns */
+
+
+.row {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+    
+}
+
+.col {
+    width: 20%;
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #454545;
+    float: left;
+    
+}
+
+.col:nth-child(2),.col:nth-child(3) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*  Boxes */
+
+.boxes {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+
+}
+
+.boxes .box {
+    width: 30%;
+    min-height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+    background-color: #454545;
+}
+
+.box:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Clearfix Hack */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #454545;
+    margin-top: 10px;
+}
